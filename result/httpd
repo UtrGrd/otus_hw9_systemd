@@ -1,0 +1,3 @@
+[root@localhost ~]# ss -tnulp | grep httpd
+tcp    LISTEN     0      128    [::]:8008               [::]:*                   users:(("httpd",pid=2772,fd=4),("httpd",pid=2771,fd=4),("httpd",pid=2770,fd=4),("httpd",pid=2769,fd=4),("httpd",pid=2768,fd=4),("httpd",pid=2767,fd=4))
+tcp    LISTEN     0      128    [::]:80                 [::]:*                   users:(("httpd",pid=2765,fd=4),("httpd",pid=2764,fd=4),("httpd",pid=2763,fd=4),("httpd",pid=2762,fd=4),("httpd",pid=2761,fd=4),("httpd",pid=2760,fd=4))

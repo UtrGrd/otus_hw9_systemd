@@ -1,0 +1,45 @@
+[root@localhost ~]# systemctl status spawn-fcgi
+● spawn-fcgi.service - LSB: Start and stop FastCGI processes
+   Loaded: loaded (/etc/rc.d/init.d/spawn-fcgi; bad; vendor preset: disabled)
+   Active: active (running) since Tue 2022-09-13 13:34:58 UTC; 11min ago
+     Docs: man:systemd-sysv-generator(8)
+  Process: 3009 ExecStart=/etc/rc.d/init.d/spawn-fcgi start (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/spawn-fcgi.service
+           ├─3021 /usr/bin/php-cgi
+           ├─3022 /usr/bin/php-cgi
+           ├─3023 /usr/bin/php-cgi
+           ├─3024 /usr/bin/php-cgi
+           ├─3025 /usr/bin/php-cgi
+           ├─3026 /usr/bin/php-cgi
+           ├─3027 /usr/bin/php-cgi
+           ├─3028 /usr/bin/php-cgi
+           ├─3029 /usr/bin/php-cgi
+           ├─3030 /usr/bin/php-cgi
+           ├─3031 /usr/bin/php-cgi
+           ├─3032 /usr/bin/php-cgi
+           ├─3033 /usr/bin/php-cgi
+           ├─3034 /usr/bin/php-cgi
+           ├─3035 /usr/bin/php-cgi
+           ├─3036 /usr/bin/php-cgi
+           ├─3037 /usr/bin/php-cgi
+           ├─3038 /usr/bin/php-cgi
+           ├─3039 /usr/bin/php-cgi
+           ├─3040 /usr/bin/php-cgi
+           ├─3041 /usr/bin/php-cgi
+           ├─3042 /usr/bin/php-cgi
+           ├─3043 /usr/bin/php-cgi
+           ├─3044 /usr/bin/php-cgi
+           ├─3045 /usr/bin/php-cgi
+           ├─3046 /usr/bin/php-cgi
+           ├─3047 /usr/bin/php-cgi
+           ├─3048 /usr/bin/php-cgi
+           ├─3049 /usr/bin/php-cgi
+           ├─3050 /usr/bin/php-cgi
+           ├─3051 /usr/bin/php-cgi
+           ├─3052 /usr/bin/php-cgi
+           └─3053 /usr/bin/php-cgi
+
+Sep 13 13:34:58 localhost.localdomain systemd[1]: Starting LSB: Start and stop FastCGI processes...
+Sep 13 13:34:58 localhost.localdomain spawn-fcgi[3009]: Starting spawn-fcgi: [  OK  ]
+Sep 13 13:34:58 localhost.localdomain systemd[1]: Started LSB: Start and stop FastCGI processes.
+
